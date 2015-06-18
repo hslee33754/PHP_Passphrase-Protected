@@ -1,5 +1,20 @@
 <?php
-// password_inc.php
+/**
+ * password_inc.php
+ *
+ * To protect a page with a password, include this file to the page.
+ * Password is stored in $key.
+ *
+ * @author Kate Lee
+ * @version 1.0 2015/4/14
+ * @license http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * <code>
+ * include 'password_inc.php';
+ * </code>
+ * 
+ * @todo none
+*/
 
 startSession(); //wrapper for session_Start();
 define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
